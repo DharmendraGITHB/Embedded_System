@@ -82,6 +82,102 @@ Techniques and methods for interfacing hardware components with embedded systems
     - [ADC_Tutorial.md](05_Hardware_Interfacing/ADC_Tutorial.md): Practical guide on ADC configuration.
     - [DAC_Tutorial.md](05_Hardware_Interfacing/DAC_Tutorial.md): Practical guide on DAC configuration.
 
-### [Other Sections...]
-(Continue with detailed descriptions of files and sub-files for each remaining section following the same format.)
+### [06_Memory_Management](06_Memory_Management/README.md)
+This section explains how memory is managed in embedded systems, focusing on stack vs. heap allocation and bootloaders.
+
+- [**stack_vs_heap.md**](06_Memory_Management/stack_vs_heap.md): 
+  - **Overview**: Detailed comparison of stack and heap memory, their advantages, and use cases.
+  - **Sub-files**:
+    - [Stack_Overflow_Issues.md](06_Memory_Management/Stack_Overflow_Issues.md): Common problems with stack overflow and how to prevent them.
+    - [Heap_Fragmentation.md](06_Memory_Management/Heap_Fragmentation.md): Explanation of heap fragmentation and how it affects memory efficiency.
+- [**bootloaders.md**](06_Memory_Management/bootloaders.md): 
+  - **Overview**: Overview of bootloader design and its role in system initialization.
+  - **Sub-files**:
+    - [Bootloader_Tutorial.md](06_Memory_Management/Bootloader_Tutorial.md): Step-by-step guide on implementing a bootloader for an embedded system.
+    - [Common_Bootloaders.md](06_Memory_Management/Common_Bootloaders.md): Examples of popular bootloaders like U-Boot.
+
+### [07_Low_Level_Programming](07_Low_Level_Programming/README.md)
+This section explores low-level programming techniques, including assembly language and register-level programming for embedded systems.
+
+- [**assembly_language_basics.md**](07_Low_Level_Programming/assembly_language_basics.md): 
+  - **Overview**: Introduction to assembly language and how it's used in embedded systems.
+  - **Sub-files**:
+    - [ARM_Assembly_Basics.md](07_Low_Level_Programming/ARM_Assembly_Basics.md): Basics of ARM assembly language for beginners.
+    - [AVR_Assembly_Basics.md](07_Low_Level_Programming/AVR_Assembly_Basics.md): Introduction to AVR assembly programming.
+- [**register_level_programming.md**](07_Low_Level_Programming/register_level_programming.md): 
+  - **Overview**: Understanding register-level programming to directly control hardware.
+  - **Sub-files**:
+    - [Register_Configuration_Tutorial.md](07_Low_Level_Programming/Register_Configuration_Tutorial.md): A guide on how to configure registers for various hardware components.
+    - [Direct_Memory_Access.md](07_Low_Level_Programming/Direct_Memory_Access.md): Using DMA for efficient data transfer in embedded systems.
+
+### [08_Power_Optimization](08_Power_Optimization/README.md)
+This section provides insights into optimizing power consumption in embedded systems to enhance battery life and energy efficiency.
+
+- [**energy_efficient_coding.md**](08_Power_Optimization/energy_efficient_coding.md): 
+  - **Overview**: Techniques for writing power-efficient embedded code.
+  - **Sub-files**:
+    - [Low_Power_Sleep_Modes.md](08_Power_Optimization/Low_Power_Sleep_Modes.md): Utilizing low-power sleep modes to reduce energy consumption.
+    - [Power_Consumption_Measurement.md](08_Power_Optimization/Power_Consumption_Measurement.md): Tools and methods to measure power consumption in real-time.
+  - **Diagrams**: Contains [low_power_modes_diagram.png](08_Power_Optimization/diagrams/low_power_modes_diagram.png).
+
+### [09_Communication_Protocols](09_Communication_Protocols/README.md)
+This section explains the communication protocols used in embedded systems, focusing on popular ones like SPI, I2C, and UART.
+
+- [**spi.md**](09_Communication_Protocols/spi.md): 
+  - **Overview**: Detailed explanation of SPI (Serial Peripheral Interface), its advantages, and how to implement it.
+  - **Sub-files**:
+    - [SPI_Example.md](09_Communication_Protocols/SPI_Example.md): Example implementation of SPI communication in C.
+- [**i2c.md**](09_Communication_Protocols/i2c.md): 
+  - **Overview**: Explanation of I2C protocol, including master-slave communication.
+  - **Sub-files**:
+    - [I2C_Basics.md](09_Communication_Protocols/I2C_Basics.md): A basic overview of I2C bus communication.
+    - [I2C_Code_Example.md](09_Communication_Protocols/I2C_Code_Example.md): Example code for I2C implementation.
+- [**uart.md**](09_Communication_Protocols/uart.md): 
+  - **Overview**: Explanation of UART communication for serial data transfer.
+  - **Sub-files**:
+    - [UART_Interrupts.md](09_Communication_Protocols/UART_Interrupts.md): Managing UART communication using interrupts.
+    - [UART_Configuration.md](09_Communication_Protocols/UART_Configuration.md): A guide to configuring UART for embedded devices.
+
+### [10_Debugging_Techniques](10_Debugging_Techniques/README.md)
+This section discusses the tools and techniques used to debug embedded systems, including JTAG and serial debugging.
+
+- [**jtag_and_serial_debugging.md**](10_Debugging_Techniques/jtag_and_serial_debugging.md): 
+  - **Overview**: How to use JTAG for hardware debugging and serial communication for troubleshooting.
+  - **Sub-files**:
+    - [JTAG_Debugging_Tutorial.md](10_Debugging_Techniques/JTAG_Debugging_Tutorial.md): Step-by-step guide on using JTAG for debugging embedded hardware.
+    - [Serial_Debugging_Example.md](10_Debugging_Techniques/Serial_Debugging_Example.md): Example of using serial debugging with common tools like PuTTY or Tera Term.
+
+### [11_Operating_Systems_and_Middleware](11_Operating_Systems_and_Middleware/README.md)
+This section covers the role of operating systems and middleware in embedded systems, with a focus on Linux.
+
+- [**linux_in_embedded.md**](11_Operating_Systems_and_Middleware/linux_in_embedded.md): 
+  - **Overview**: Using Linux as an embedded OS, including configuring the kernel and booting.
+  - **Sub-files**:
+    - [Building_Linux_Kernel.md](11_Operating_Systems_and_Middleware/Building_Linux_Kernel.md): Guide to building a Linux kernel for embedded devices.
+    - [Linux_Device_Drivers.md](11_Operating_Systems_and_Middleware/Linux_Device_Drivers.md): Writing device drivers in Linux.
+- [**device_tree.md**](11_Operating_Systems_and_Middleware/device_tree.md): 
+  - **Overview**: Explanation of device tree and how it helps manage hardware resources in embedded Linux.
+  - **Sub-files**:
+    - [Device_Tree_Structure.md](11_Operating_Systems_and_Middleware/Device_Tree_Structure.md): Structure and examples of device tree files.
+    - [Modifying_Device_Tree.md](11_Operating_Systems_and_Middleware/Modifying_Device_Tree.md): How to modify the device tree for custom hardware.
+
+### [12_Security](12_Security/README.md)
+This section focuses on security challenges in embedded systems and how to secure these devices against common threats.
+
+- [**embedded_security.md**](12_Security/embedded_security.md): 
+  - **Overview**: A detailed explanation of security concerns in embedded systems, such as securing bootloaders and data.
+  - **Sub-files**:
+    - [Secure_Boot.md](12_Security/Secure_Boot.md): Techniques for implementing secure boot processes.
+    - [Encryption_in_Embedded.md](12_Security/Encryption_in_Embedded.md): Overview of encryption methods used to secure data in embedded systems.
+
+### [13_Project_Experience](13_Project_Experience/README.md)
+This section documents practical experiences and challenges encountered during various embedded systems projects.
+
+- [**project_challenges.md**](13_Project_Experience/project_challenges.md): 
+  - **Overview**: Real-world project challenges, including hardware-software integration and testing.
+  - **Sub-files**:
+    - [Hardware_Debugging_Case_Study.md](13_Project_Experience/Hardware_Debugging_Case_Study.md): Case study on debugging hardware in a real-world project.
+    - [Software_Optimization_Case_Study.md](13_Project_Experience/Software_Optimization_Case_Study.md): Case study on optimizing software for speed and power efficiency.
+
+---
 
