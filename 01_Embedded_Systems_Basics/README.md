@@ -10,6 +10,9 @@ This folder contains materials on the fundamental concepts of embedded systems.
 
 # Building Blocks of Embedded Systems
 
+
+![Alt text](path/to/your/image.png)
+
 ## 1. Central Processing Unit (CPU)
 
 The **CPU** is the core of the embedded system, responsible for executing machine instructions. It contains multiple **registers**, **arithmetic logic units (ALUs)**, and control units.
