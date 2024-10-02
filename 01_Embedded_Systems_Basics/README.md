@@ -10,7 +10,7 @@ This folder contains materials on the fundamental concepts of embedded systems.
 
 # Building Blocks of Embedded Systems
 
-![Building Blocks of Embedded Systems](01_Embedded_Systems_Basics/embedded_system_pics/building_blocks_embedded_systems.png)
+![Building Blocks of Embedded Systems](https://github.com/DharmendraGITHB/Embedded_System/blob/main/01_Embedded_Systems_Basics/embedded_system_pics/building_blocks_embedded_systems.png)
 
 ## 1. Central Processing Unit (CPU)
 
