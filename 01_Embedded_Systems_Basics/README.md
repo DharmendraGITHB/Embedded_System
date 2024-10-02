@@ -34,7 +34,7 @@ Modern embedded CPUs like the ARM Cortex-M series use **pipelining** to improve 
 
 #### Mathematical Perspective:
 - If a non-pipelined CPU takes 5 clock cycles to complete one instruction and runs at 100 MHz:
-  - **Time per Instruction**: \[\frac{5}{100 \times 10^6} = 50 \text{ ns}\].
+  - **Time per Instruction**: \[\frac{5}{100 \times 10^6} = 50 \text{ ns}\]
 - In a 5-stage pipeline, each instruction may only take 1 cycle after the pipeline is filled:
   - **Throughput**: 100 million instructions per second (MIPS).
 
